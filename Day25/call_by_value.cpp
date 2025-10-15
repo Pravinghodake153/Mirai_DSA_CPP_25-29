@@ -9,10 +9,10 @@ void update(int a){
 }
 
 int main(){
-    int a = 5; //
+    int a = 5; // 
     cout<<"before updating "<<a<<endl;   //5  -1
     update(a);  
-    cout<<"after updating "<<a<<endl;    //5  -3
+    cout<<"after updating "<<a<<endl;    //5  -3  //original value will remain same
     return 0;
 
 }

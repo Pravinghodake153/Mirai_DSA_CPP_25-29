@@ -11,9 +11,10 @@ int factorial (int n){
 }
 
 int nCr(int n , int r){
-    int x1 = factorial(n);
-    int x2 = factorial(n-r);
-    int x3 = factorial(r);
+    int x1 = factorial(n);  //n!
+    int x2 = factorial(n-r);  //(n-r)!
+
+    int x3 = factorial(r);   //r!
 
 
     return x1/(x2*x3);
